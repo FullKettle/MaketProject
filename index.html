@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>John Doe</title>
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+	<div class="container-fluid">
+		<div class="row">
+			<header class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nopadding">
+				<div class="header-background">
+					<img src="img/hero.jpg" alt="banner" class="banner"/>
+					<a href="#"><img src="img/logo.jpg" alt="logo" class="logo"/></a>
+					<div class="headers">
+						<h1>Amazing dude. <br>Amazing life.</h1>
+						<h2>Welcome to the personal site of <span>John Doe</span>.<br>A professional skier and a musician.</h2>
+					</div>
+					<div id="htm" class="hidden-menu-ticker">
+						<label class="btn-menu" for="hmt">
+							<span class="first"></span>
+							<span class="second"></span>
+							<span class="third"></span>
+						</label>
+						<h3>menu</h3>
+						<ul class="hidden-menu">
+							<li><a href="#">About John Doe</a></li>
+							<li><a href="#">Gallery</a></li>
+							<li><a href="#">Music</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Contacts</a></li>
+						</ul>		
+					</div>
+				</div>
+			</header>
+		</div>
+		<div class="row about nopadding">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 nopadding"><img src="img/picture-1.jpg"/></div>
+			<div class="pic-0 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<h4>Sed faucibus quis</h4>
+				<p>Fusce bibendum luctus massa, ut tincidunt lectus tincidunt in. Nulla tristique ipsum vitae lacus ullamcorper, at dictum nunc scelerisque.</p>
+			</div>
+		</div>
+		<div class="row gallery nopadding">
+			<div class="pic pic-1 col-xs-6 col-sm-6 col-md-3 col-lg-3 nopadding"><img src="img/picture-2.jpg"/></div>
+			<div class="pic pic-2 col-xs-6 col-sm-6 col-md-3 col-lg-3 nopadding"><img src="img/picture-3.jpg"/></div>
+			<div class="pic pic-3 col-xs-6 col-sm-6 col-md-3 col-lg-3 nopadding"><img src="img/picture-4.jpg"/></div>
+			<div class="pic pic-4 col-xs-6 col-sm-6 col-md-3 col-lg-3 nopadding"><img src="img/picture-5.jpg"/></div>
+			<div class="pic pic-5 col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<h4>Instagram</h4>
+				<p>Etiam lacus dolor, tincidunt vitae nisi in, vulputate placerat odio. Pellentesque iaculis.</p>
+				<div class="instagram-btn"><a href="https://www.instagram.com" target="_blank">view on instagram</a></div>
+			</div>
+			<div class="pic pic-6 col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding"><img src="img/picture-6.jpg"/></div>
+			<div class="pic pic-7 col-xs-0 col-sm-0 col-md-3 col-lg-3"></div>
+		</div>
+		<div class="row music nopadding">					
+			<div class="pic-9 col-xs-12 col-sm-12 col-md-12 col-lg-12 nopadding"><img src="img/picture-7.jpg"/>
+				<div class="pic-8 col-xs-0 col-sm-0 col-md-3 col-lg-3 nopadding"></div>
+				<div class="listen col-xs-12 col-sm-3 col-md-3 col-lg-3 nopadding">
+					<h5>Self-effecing rage</h5>
+					<h6>Ft. Fascinating Collision</h6>
+					<p>Director: James G. Rohrer<br>Production Company: Sycamore<br>Producer: Laura S. Carlton<br>Executive Producer: Jack M. Heckart</p>
+					<div class="music-player">
+						<div class="play-btn"></div>
+						<div id="play" onclick="togglePlayPause()"><span></span> </div>
+						<label for="play"><p>Click to play</p></label>
+						<audio id="audio" src="music/music.mp3" preload="auto" controls></audio>
+					</div>
+				</div>
+			</div>					
+		</div>
+		<div class="row social nopadding">
+			<div class="pic-10 col-xs-12 col-sm-6 col-md-6 col-lg-6 nopadding">
+				<h4>Spotyfy</h4>
+				<p>Follow me, stream and add my songs to your Spotify playlist.</p>
+				<div class="spotify-btn"><a href="https://www.spotify.com" target="_blank">follow on spotify</a></div>
+			</div>
+			<div class="pic-11 col-xs-12 col-sm-6 col-md-6 col-lg-6 nopadding">
+				<h4>Itunes</h4>
+				<p>Buy and download my songs from iTunes.</p>
+				<div class="itunes-btn"><a href="http://www.apple.com/itunes/" target="_blank">buy on itunes</a></div>
+			</div>
+		</div>
+		<div class="row contacts nopadding">
+			<div class="pic-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 nopadding">
+				<h6>Amazing dude.<br>Amazing life.</h6>
+				<p>Mauris ornare lobortis arcu, at sodales dolor finibus nec. In convallis risus ligula, bibendum sagittis ante cursus vitae. Donec ornare, dui nec sagittis imperdiet, nunc eros dignissim augue, ut aliquam nibh felis sit amet leo. Vivamus eu tincidunt tellus. Vestibulum quis condimentum lectus, nec aliquet lectus. Duis sollicitudin facilisis dui ac aliquet. Phasellus tempor sollicitudin augue, id hendrerit enim gravida non. Integer consequat vel arcu quis dictum. Vestibulum viverra commodo nunc eu pellentesque. Phasellus in scelerisque elit, eu ultricies mauris.</p>
+				<p class="rights">&copy;2015. All rights reserved.</p>
+			</div>
+			<div class="pic-13 col-xs-12 col-sm-4 col-md-2 col-lg-2 nopadding">
+				<h6>Contact me</h6>
+				<p>1242 Crestview Terrace<br>Artesia Wells, TX 78001</p>
+				<p>Phone: 830-676-7974<br>Email: halo@sitename.com</p>
+				<h6>Follow me on</h6>
+				<ul>
+					<li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+					<li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+					<li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+					<li><a href="https://www.spotify.com" target="_blank">Spotify</a></li>
+				</ul>
+			</div>
+			<div class="pic-14 col-xs-12 col-sm-8 col-md-6 col-lg-6 nopadding">
+				<h6>Subscribe</h6>
+				<p>Duis sollicitudin facilisis dui ac aliquet. Phasellus tempor sollicitudin augue, id hendrerit enim gravida non. Integer consequat vel arcu quis dictum. Vestibulum viverra commodo nunc eu pellentesque.</p>
+				<form>
+					<div class="email_form">
+						<p><input type="email" name="email" placeholder="Enter your email address"/></p>
+						<p><input type="submit" value=""/></p>
+					</div>
+				</form>
+				<h6>Sponsor</h6>
+				<ul>
+					<li><img src="img/sponsor.png"/></li>
+					<li><img src="img/sponsor.png"/></li>
+					<li><img src="img/sponsor.png"/></li>
+				</ul>			
+			</div>
+		</div>
+	</div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+   <script>
+		var audio = document.getElementById('audio');
+		var playpause = document.getElementById("play");
+		function togglePlayPause() {
+		if (audio.paused || audio.ended) {      
+			audio.play();
+			playpause.classList.add('active');
+		} else {      
+			audio.pause();
+			playpause.classList.remove('active');
+		}
+		}
+   </script>
+  </body>
+</html>
